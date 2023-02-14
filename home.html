@@ -1,0 +1,39 @@
+{%extends 'base.html'%}
+
+{%block body%}
+
+<div class = 'first'>
+    <h1>Super Cool Weather Thingy</h1>
+</div>
+
+<form action="{{url_for('main')}}" method = "post">
+  City: <input type="text" name = "City">
+</form>
+
+<div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+<table>
+  <tr>
+    <th>Temporature</th>
+    <th>Pressure</th>
+    <th>Humidity</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>{{ message [0]}}</td>
+    <td>{{ message [1]}}</td>
+    <td>{{ message [2]}}</td>
+    <td>{{ message [3]}}</td>
+  </tr>
+</table>
+
+
+
+{%endblock%}
