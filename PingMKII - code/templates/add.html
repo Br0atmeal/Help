@@ -1,0 +1,21 @@
+{%extends "base.html"%}
+
+{%block body%}
+
+<div class = "add-form">
+    <h1>Add Student</h1>
+    <form action="{{url_for ('addrec')}}" method="post">
+        <input type="text" name="s-name" placeholder = "Student Name">
+        <br>
+        <input type="text" name="s-id" placeholder = "ID">
+        <br>
+        <input type="text" name="s-city" placeholder = "City">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    {%if msg == "Student record successfuly added"%}
+        <h2>{{msg}}</h2>
+    {%endif%}
+</div>
+
+{%endblock%}

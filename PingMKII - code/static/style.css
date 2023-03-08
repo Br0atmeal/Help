@@ -1,0 +1,48 @@
+.home-title {
+    font-family: Bahnschrift;
+    background-color: aquamarine;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family: Bahnschrift;
+    color: darkblue;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+button {
+    font-family: Bahnschrift;
+    background-color: lightblue;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.add-form{
+    font-family: Bahnschrift;
+    height: 500px;
+    width: 400px;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input {
+    font-family: Bahnschrift;
+    background-color: lightblue;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: darkblue;
+}
